@@ -2,11 +2,11 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: {
-    photocarousel: '../photo-carousel/client/index.jsx',
-    castphotos: '../castphotos/client/index.jsx',
-    AUDIENCEREVIEWS: '../AUDIENCE-REVIEWS/client/src/index.jsx',
-    CRITICREVIEWS: '../CRITIC_REVIEWS/client/index.jsx',
-    moviepreview: ['@babel/polyfill', '../movie-preview/client/src/index.jsx']
+    // photocarousel: '../photo-carousel/client/index.jsx',
+    // castphotos: '../castphotos/client/index.jsx',
+    AUDIENCEREVIEWS: './rachel-audience-reviews/client/src/index.jsx'
+    // CRITICREVIEWS: '../CRITIC_REVIEWS/client/index.jsx',
+    // moviepreview: ['@babel/polyfill', '../movie-preview/client/src/index.jsx']
   },
   output: {
     path: __dirname + '/public',
